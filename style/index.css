@@ -108,7 +108,8 @@
     }
     
     .testimonial-sec-2 {
-        padding-left: 1px;
+        padding: 1px !important;
+        height: 320px;
         
     }
 
@@ -116,29 +117,24 @@
         width: 0;
     }
 
-    /* .testifiers {
-        width: 150px;
-    } */
-
     .img-testifiers {
         width: 32px;
     }
-
-    /* .icon-testifiers + .p-testifiers {
-        display: none;
-    } */
+   
+    .icon-testifiers, .p-testifiers {
+        display: block !important;
+    }
 
     .icon-testifiers, .p-testifiers, .p-3 {
         font-size: 9px;
     }    
 
-
-
-
-
-
     .call-to-action-section {
         padding-left: 50px !important;
+    }
+
+    .h2-action, .icon-action-icon {
+        font-size: 16px;
     }
 
     .img-call {
