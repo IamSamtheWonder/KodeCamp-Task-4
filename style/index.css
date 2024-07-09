@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testimonial-sec-2 {
+    padding-left: 300px !important;
+}
+
+.call-to-action-section {
+    padding-left: 250px !important;
+}
+
+.p-6 {
+    font-size: 0.8rem;
+    line-height: 15px;
+}
+
+/* Tablet Screen */
+@media(max-width: 768px) {
+    
+    .hero-section {
+        gap: 150px;
+    }
+
+    .first {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .get-started, .view-more {
+        font-size: 10px;
+        width: 80px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .hero-section-img {
+        width: 260px;
+        height: 300px;
+        margin-top: 30px;
+    }
+
+    .testimonial-sec-2 {
+        padding-left: 45px !important;
+        height: 370px;
+    }
+
+    .client {
+        font-size: 20px;
+    }
+
+    .p-client {
+        font-size: 14px;
+    }
+
+    .icon-testifiers,  .p-testifiers {
+        font-size: 12px;
+    }
+
+    .p-3 {
+        font-size: 13px;
+    }
+
+    .call-to-action-section {
+        flex-flow: column-reverse;
+        padding-left: 100px !important;
+    }
+
+    .h2-action, .icon-action {
+        text-align: center;
+    }
+
+    .p-7 br, .p-6 br {
+        display: none;
+    }
+    
+}
+
+/* Mobile Screen */
+@media (max-width: 426px) {
+    .hero-section {
+        flex-flow: column-reverse;
+        gap: 0;
+    }
+
+    .first br {
+        display: none;
+    }
+
+    .first {
+        font-size: 1.1rem;
+    }
+
+    p, .p-client {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .hero-section-img{
+        margin-left: 95px;
+        margin-top: 0;
+    }
+    
+    .testimonial-sec-2 {
+        padding-left: 1px;
+        
+    }
+
+    .main-testifiers {
+        width: 0;
+    }
+
+    /* .testifiers {
+        width: 150px;
+    } */
+
+    .img-testifiers {
+        width: 32px;
+    }
+
+    /* .icon-testifiers + .p-testifiers {
+        display: none;
+    } */
+
+    .icon-testifiers, .p-testifiers, .p-3 {
+        font-size: 9px;
+    }    
+
+
+
+
+
+
+    .call-to-action-section {
+        padding-left: 50px !important;
+    }
+
+    .img-call {
+        width: 320px;
+        height: 200px;
+    }
+
+}
